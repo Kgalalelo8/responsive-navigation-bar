@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.side-bar{
+    position:fixed;
+    top:0;
+    left:0;
+    background: #11101d;
+    height: 100%;
+    width: 260px ;
+}
+
+.side-bar .logo-details{
+height:60px;
+width:100px;
+display:flex;
+align-items: center;
+}
+
+.side-bar .logo-details i{
+    font-size: 30px;
+    color:#fff;
+    height:50px;
+    min-width: 78px;
+    text-align:center;
+    line-height:50px;
+} 
+
+.side-bar .logo-details .logo-name{
+    font-size:22px;
+    color:white;
+    font-weight:600;
+}
+
+.side-bar .nav-links{
+
+    height: 100%;
+    padding-top:30px;
+}
+
+.side-bar .nav-links li:hover{
+background: #1d1b31;
+
+}
+
+.side-bar .nav-links li{
+    list-style: none;
+    position:relative;
+
+}
+
+.side-bar .nav-links li .icon-links{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.side-bar .nav-links li i{
+    height:50px;
+    min-width: 78px;
+    text-align:center;
+    line-height:50px;
+    color:white;
+}
+.side-bar .nav-links li a{
+
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+
+    
+
+}
+
+ .side-bar .nav-links li a .link-name{
+    font-size: 18px;
+    font-weight:400;
+    color:white;
+} 
+
+ .side-bar .nav-links li .sub-menu{
+    padding:6px 6px 14px 80px;
+    margin-top:-10px;
+    background: #1d1b31;
+ }
+
+  .side-bar .nav-links li .sub-menu a{
+    color:white;
+    font-size:15px;
+  }
+ 
