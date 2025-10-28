@@ -50,6 +50,7 @@ background: #1d1b31;
 .side-bar .nav-links li{
     list-style: none;
     position:relative;
+    transition: all 0,4s ease;
 
 }
 
@@ -86,10 +87,30 @@ background: #1d1b31;
     padding:6px 6px 14px 80px;
     margin-top:-10px;
     background: #1d1b31;
+   /* display:none; */
  }
 
   .side-bar .nav-links li .sub-menu a{
     color:white;
     font-size:15px;
+    padding:5px;
+    white-space:no-wrap;
+    opacity:0.6;
+    transition: all 0.3s ease;
   }
  
+ .side-bar.close  .nav-links li .sub-menu{
+    position:absolute;
+    left:100%;
+    top:0;
+    margin-top:0;
+    padding:10px 20px ;
+    border-radius: 0 6px 6px 0;
+
+
+
+ } 
+
+  .side-bar.close  .nav-links li .sub-menu.link-name{
+     
+  }
